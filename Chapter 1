@@ -1,0 +1,10 @@
+// writing Hello World
+#include "SSDL.h"
+
+int main (int argc, char** argv)
+{
+  sout<< "Hello World! (Press any key to quit.)\n";
+  SSDL_WaitKey ();  //this waits for user to press any key before exiting window
+  
+  return 0;
+  }
